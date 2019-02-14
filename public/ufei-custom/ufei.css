@@ -12,6 +12,9 @@
 .emphasis-title {
     margin-top: 100px;
 }
+.emphasis-title h2 {
+    font-size: 2rem !important;
+}
 
 .p-box {    
     position: relative;
@@ -54,6 +57,9 @@
     .emphasis-title {
         margin-top: 70px;
     }    
+    .emphasis-title h2 {
+        font-size: 65px !important;
+    }
     .swiper-slide.swiper-slide-active .slider-caption .emphasis-title p {
         color: #666;
         font-family: var(--fontB);       

@@ -13,7 +13,7 @@
     margin-top: 100px;
 }
 .emphasis-title h2 {
-    font-size: 2rem !important;
+    font-size: 1.75rem !important;
 }
 
 .p-box {    
@@ -51,6 +51,7 @@
 }
 
 /* -------- @media styling ------- */
+
 @media (min-width: 769px) {
 
     /* -------- Landing -------- */
@@ -79,6 +80,7 @@
         padding: 0px;
     }    
     
+    /* -------- Quotes Carousel -------- */
     .quotes img {
         padding-top: 20px;
     }

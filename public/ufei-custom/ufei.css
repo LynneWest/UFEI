@@ -1,0 +1,104 @@
+:root {	
+    --colorA: #457537; /* background-color: var(--colorA);  */
+    
+    --fontA: 'Montserrat', sans-serif; /* font-family: var(--fontA) */
+    --fontB: 'Merriweather', serif; /* font-family: var(--fontB) */
+}
+
+/* -------- Landing -------- */
+.swiper-slide {
+    background: #FFF url('images/tree-back-light.png') no-repeat center right;    
+}
+.emphasis-title {
+    margin-top: 100px;
+}
+
+.p-box {    
+    position: relative;
+    margin: 10px 0;
+    padding: 10px 0;
+    background-color: var(--colorA);    
+    color: white;
+    overflow: hidden;
+}
+.p-box p {
+    font-size: .9rem;
+    font-family: var(--fontA);    
+    letter-spacing: .5px;
+}
+
+/* -------- App Grid -------- */
+.color-block h2 {
+    -webkit-transition-duration: 0.5s; /* Safari */
+	transition-duration: 0.5s;
+}
+.color-block:hover h2 {    
+    -webkit-transform: scale(1.1);
+}
+.overlay h2 {
+    padding-top: 30%;
+    text-align: center;
+}
+.portfolio-desc {
+    padding: 0px;
+    margin-bottom: 15px;
+}
+.portfolio-desc span a {
+    font-size: 1rem;
+}
+
+/* -------- @media styling ------- */
+@media (min-width: 769px) {
+
+    /* -------- Landing -------- */
+    .emphasis-title {
+        margin-top: 70px;
+    }    
+    .swiper-slide.swiper-slide-active .slider-caption .emphasis-title p {
+        color: #666;
+        font-family: var(--fontB);       
+    }
+    
+    .p-box {        
+        margin: 30px 0;
+        padding: 30px 0;       
+    }
+    .p-box p {
+        font-size: 1.25rem;        
+        font-weight: 600;        
+    }    
+    
+    /* -------- App Grid -------- */    
+    .portfolio-desc {
+        padding: 0px;
+    }    
+    
+    .quotes img {
+        padding-top: 20px;
+    }
+    
+    /* -------- Footer -------- */
+    #copyrights {
+        padding: 20px 0px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    /* -------- Navigation -------- */
+    #primary-menu > ul > li > a {
+        color: #222;
+    }
+    
+}
+
+@media (min-width: 1200px) {
+
+    /* -------- Landing -------- */
+    .swiper-slide {
+        background: #FFF url('images/tree-back.png') no-repeat center right !important;
+        background-size: auto 100% !important;
+    }
+
+}

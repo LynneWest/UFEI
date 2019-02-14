@@ -57,10 +57,7 @@
     /* -------- Landing -------- */
     .emphasis-title {
         margin-top: 70px;
-    }    
-    .emphasis-title h2 {
-        font-size: 65px !important;
-    }
+    }   
     .swiper-slide.swiper-slide-active .slider-caption .emphasis-title p {
         color: #666;
         font-family: var(--fontB);       
@@ -97,6 +94,11 @@
     /* -------- Navigation -------- */
     #primary-menu > ul > li > a {
         color: #222;
+    }
+
+    /* -------- Landing -------- */
+    .emphasis-title h2 {
+        font-size: 65px !important;
     }
     
 }
